@@ -103,8 +103,8 @@
               <div class="col-lg-6">
                 <ul>
                   <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>ainnishasofea24@gmail.com</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>GitHub:</strong> <span>github.com/username</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>LinkedIn:</strong> <span>linkedin.com/in/profile</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>GitHub:</strong> <span><a href="https://github.com/nnshaaa" target="_blank">github.com/nnshaaa</a></span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>LinkedIn:</strong> <span><a href="https://www.linkedin.com/in/ainnisha-sofea-872a41412/" target="_blank">linkedin.com/in/ainnisha-sofea</a></span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Career Goal:</strong> <span>Software Developer</span></li>
                 </ul>
               </div>

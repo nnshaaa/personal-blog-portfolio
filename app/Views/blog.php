@@ -85,13 +85,6 @@
           <div class="col-lg-4">
             <aside class="blog-sidebar" data-aos="fade-up" data-aos-delay="150">
 
-              <div class="sidebar-widget search-widget">
-                <form class="d-flex">
-                  <input type="text" class="form-control" placeholder="Search posts..." aria-label="Search posts">
-                  <button type="submit" class="btn"><i class="bi bi-search"></i></button>
-                </form>
-              </div><!-- End Search Widget -->
-
               <div class="sidebar-widget author-widget text-center">
                 <img src="<?= base_url('/') ?>/assets/img/profile-img.jpg" class="author-img" alt="Ainnisha Sofea">
                 <h4>Ainnisha Sofea</h4>

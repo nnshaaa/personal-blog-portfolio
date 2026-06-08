@@ -1752,3 +1752,25 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+/*--------------------------------------------------------------
+# Blog Details Section
+--------------------------------------------------------------*/
+.blog-details img {
+border-radius: 10px;
+}
+
+.blog-details p {
+line-height: 1.9;
+margin-bottom: 20px;
+}
+
+.blog-details .portfolio-info {
+position: sticky;
+top: 100px;
+}
+
+.blog-details h2 {
+margin-bottom: 20px;
+}
+

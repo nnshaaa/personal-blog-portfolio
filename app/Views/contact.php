@@ -102,7 +102,7 @@
                 <i class="bi bi-telephone flex-shrink-0"></i>
                 <div>
                   <h3>GitHub</h3>
-                  <p></p>
+                  <p>https://github.com/nnshaaa</p>
                 </div>
               </div><!-- End Info Item -->
 

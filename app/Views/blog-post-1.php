@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Portfolio Details - Kelly Bootstrap Template</title>
+  <title>Blog Details - </title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -75,72 +75,77 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Portfolio Details</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <h2>Blog Details</h2>
+        <p>Sharing experiences, achievements and learning moments throughout my university journey.</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row gy-4">
 
-          <div class="col-lg-8">
-            <div class="portfolio-details-slider swiper init-swiper">
-
-              <script type="application/json" class="swiper-config">
-                {
-                  "loop": true,
-                  "speed": 600,
-                  "autoplay": {
-                    "delay": 5000
-                  },
-                  "slidesPerView": "auto",
-                  "pagination": {
-                    "el": ".swiper-pagination",
-                    "type": "bullets",
-                    "clickable": true
-                  }
-                }
-              </script>
-
-              <div class="swiper-wrapper align-items-center">
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/app-1.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/product-1.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/branding-1.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/books-1.jpg" alt="">
-                </div>
-
-              </div>
-              <div class="swiper-pagination"></div>
-            </div>
-          </div>
-
-          <div class="col-lg-4">
-            <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
-              <h3>Project information</h3>
-              <ul>
-                <li><strong>Category</strong>: Web design</li>
-                <li><strong>Client</strong>: ASU Company</li>
-                <li><strong>Project date</strong>: 01 March, 2020</li>
-                <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
-              </ul>
-            </div>
-            <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
-              <h2>Exercitationem repudiandae officiis neque suscipit</h2>
-              <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
-              </p>
-            </div>
+          <!-- LEFT SIDEBAR --> 
+          <div class="col-lg-3"> 
+            
+            <div class="portfolio-info mb-4"> 
+              <img src="<?= base_url('/') ?>/assets/img/profile-img.jpg" class="img-fluid rounded-circle mb-3" alt="Profile"> 
+              <h4>Ainnisha Sofea</h4> 
+              <p> 
+                Software Development student passionate about web development, AI technologies and continuous learning.
+              </p> 
+            </div> 
+            
+            <div class="portfolio-info mb-4"> 
+              <h3>Popular Posts</h3> 
+              <ul> 
+                <li><a href="<?= base_url('blog-post-1') ?>">Student Activity Highlights</a></li> 
+                <li><a href="<?= base_url('blog-post-2') ?>">Learning Teamwork During a University Program</a></li> 
+                <li><a href="<?= base_url('blog-post-3') ?>">Academic Achievement Notes</a></li> 
+              </ul> 
+            </div> 
+            
+            <div class="portfolio-info"> 
+              <h3>Categories</h3> 
+              <ul> 
+                <li>Activities</li> 
+                <li>Achievements</li> 
+              </ul> 
+            </div> 
+          </div> 
+          
+          <!-- MAIN BLOG CONTENT --> 
+          <div class="col-lg-6"> 
+            <a href="<?= base_url('blog') ?>" class="btn btn-outline-success mb-4"> <i class="bi bi-arrow-left"></i> Back to Blog </a><img src="<?= base_url('/') ?>/assets/img/masonry-portfolio/masonry-portfolio-1.jpg" class="img-fluid rounded mb-4" alt="Blog Image"> 
+            <h2>Exploring Campus Life Through Student Activities</h2> 
+            
+            <p> 
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla. 
+            </p> 
+            
+            <p> 
+              Cras mattis consectetur purus sit amet fermentum. Vestibulum id ligula porta felis euismod semper. Maecenas faucibus mollis interdum. 
+            </p> 
+            
+            <p> 
+              Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nulla vitae elit libero, a pharetra augue. Curabitur blandit tempus porttitor. 
+            </p> 
+            
+            <p> 
+              Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. 
+            </p> 
+          </div> 
+          <!-- RIGHT META INFO --> 
+           
+          <div class="col-lg-3"> 
+            <div class="portfolio-info"> 
+              <h3>Post Information</h3> 
+              <ul> 
+                <li> <strong>Author</strong><br> Ainnisha Sofea </li> 
+                <li> <strong>Date</strong><br> Jan 12, 2026 </li> 
+                <li> <strong>Category</strong><br> Activities </li> 
+                <li> <strong>Views</strong><br> 245 Views </li> 
+                <li> <strong>Reading Time</strong><br> 3 Minutes </li> 
+              </ul> 
+            </div> 
           </div>
 
         </div>
