@@ -19,6 +19,11 @@ class Portfolio extends BaseController
         return view('projects');
     }
 
+    public function projectDetails1()
+    {
+        return view('project-details');
+    }
+
     public function blog()
     {
         return view('blog');
