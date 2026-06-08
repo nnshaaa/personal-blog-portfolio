@@ -91,13 +91,13 @@
 	  <section class="about_area section_gap">
 		  <div class="container">
 			  <div class="row justify-content-start align-items-center">
-				  <div class="col-lg-5">
+				  <div class="col-lg-4">
 					  <div class="about_img">
-						  <img class="" src="img/about-us.png" alt="">
+						  <img class="" src="<?= base_url('/') ?>/assets/img/about-me.jpg" alt="About Me">
 					  </div>
 				  </div>
 
-				  <div class="offset-lg-1 col-lg-5">
+				  <div class="col-lg-7">
 					  <div class="main_title text-left">
 						  <h2>Let’s Introduce about myself</h2><br>
 						  <p>

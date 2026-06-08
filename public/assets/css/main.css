@@ -801,6 +801,16 @@ section,
   line-height: 0;
 }
 
+.about_img img {
+    max-width: 350px;
+    width: 100%;
+    height: auto;
+}
+
+.about_area .row {
+    gap: 30px;
+}
+
 /*--------------------------------------------------------------
 # Skills Section
 --------------------------------------------------------------*/

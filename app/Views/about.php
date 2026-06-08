@@ -83,7 +83,7 @@
 
         <div class="row gy-4 justify-content-center">
           <div class="col-lg-4">
-            <img src="<?= base_url('/') ?>/assets/img/profile-img.jpg" class="img-fluid" alt="">
+            <img src="<?= base_url('/') ?>/assets/img/profileimg.jpg" class="img-fluid" alt="Profile Image">
           </div>
           <div class="col-lg-8 content">
             <h2>Computer Science Student & Aspiring Software Developer</h2>
@@ -293,7 +293,7 @@
 
     <div class="container">
       <div class="copyright text-center ">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">Kelly</strong> <span>All Rights Reserved<br></span></p>
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Portfolio</strong> <span>All Rights Reserved<br></span></p>
       </div>
       <div class="social-links d-flex justify-content-center">
         <a href=""><i class="bi bi-twitter-x"></i></a>
