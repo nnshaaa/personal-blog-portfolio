@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Portfolio Details - Kelly Bootstrap Template</title>
+  <title>Project Details - EduHub Center</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -44,7 +44,7 @@
       <a href="<?= base_url('home') ?>" class="logo d-flex align-items-center me-auto me-xl-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">Kelly</h1>
+        <h1 class="sitename">Blog</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
@@ -73,17 +73,23 @@
     <!-- Portfolio Details Section -->
     <section id="portfolio-details" class="portfolio-details section">
 
+      <div class="container mb-4">
+          <a href="<?= base_url('projects') ?>" class="btn btn-outline-success back-btn">
+              <i class="bi bi-arrow-left"></i> Back to Projects
+          </a>
+      </div>
+
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Portfolio Details</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <h2>Project Details - Eduhub Center</h2>
+        <p>A web-based management system developed to simplify tuition center operations, including class booking, scheduling and payment management.</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row gy-4">
 
-          <div class="col-lg-8">
+          <div class="col-lg-6">
             <div class="portfolio-details-slider swiper init-swiper">
 
               <script type="application/json" class="swiper-config">
@@ -105,19 +111,27 @@
               <div class="swiper-wrapper align-items-center">
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/app-1.jpg" alt="">
+                  <img src="assets/img/portfolio/eduhub1.png" alt="">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/product-1.jpg" alt="">
+                  <img src="assets/img/portfolio/eduhub2.png" alt="">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/branding-1.jpg" alt="">
+                  <img src="assets/img/portfolio/eduhub3.png" alt="">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/books-1.jpg" alt="">
+                  <img src="assets/img/portfolio/eduhub4.png" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/eduhub5.png" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/eduhub6.png" alt="">
                 </div>
 
               </div>
@@ -125,21 +139,43 @@
             </div>
           </div>
 
-          <div class="col-lg-4">
+          <div class="col-lg-6">
             <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
               <h3>Project information</h3>
               <ul>
-                <li><strong>Category</strong>: Web design</li>
-                <li><strong>Client</strong>: ASU Company</li>
-                <li><strong>Project date</strong>: 01 March, 2020</li>
-                <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+                <li><strong>Project Type</strong>: Academic Group Project</li>
+                <li><strong>Project Date</strong>: July, 2025</li>
+                <li><strong>Project URL</strong>: -</li>
               </ul>
             </div>
             <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
-              <h2>Exercitationem repudiandae officiis neque suscipit</h2>
+              <h2>Project Description</h2>
               <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+                EduHub Center is a web-based tuition center management system developed as a group project. 
+                My contribution focused on the student module, which was designed to provide students with a convenient platform to manage their learning activities.
+                The module includes features such as class enrollment, schedule management, access to learning materials, attendance tracking and tuition payment monitoring. 
               </p>
+            </div>
+            <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
+                <h2>Key Features</h2>
+                <ul>
+                    <li>Interactive student dashboard</li>
+                    <li>Class enrollment management</li>
+                    <li>Class schedule viewing</li>
+                    <li>Learning resources library</li>
+                    <li>Attendance records tracker</li>
+                    <li>Tuition payment tracker</li>
+                </ul>
+            </div>
+
+            <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
+                <h2>Technologies Used</h2>
+                <ul>
+                    <li>PHP - Used for backend development and server-side logic</li>
+                    <li>MySQL - Used for database management</li>
+                    <li>HTML/CSS/JavaScript - Used for frontend development</li>
+                    <li>Bootstrap - Used for responsive design and UI components</li>
+                </ul>
             </div>
           </div>
 
@@ -155,7 +191,7 @@
 
     <div class="container">
       <div class="copyright text-center ">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">Kelly</strong> <span>All Rights Reserved<br></span></p>
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Portfolio</strong> <span>All Rights Reserved<br></span></p>
       </div>
       <div class="social-links d-flex justify-content-center">
         <a href=""><i class="bi bi-twitter-x"></i></a>

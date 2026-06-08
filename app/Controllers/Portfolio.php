@@ -21,7 +21,27 @@ class Portfolio extends BaseController
 
     public function projectDetails1()
     {
-        return view('project-details');
+        return view('project-details-lakaranimpian');
+    }
+
+    public function projectDetails2()
+    {
+        return view('project-details-heykawan');
+    }
+
+    public function projectDetails3()
+    {
+        return view('project-details-eduhub');
+    }
+
+    public function projectDetails4()
+    {
+        return view('project-details-speakhand');
+    }
+
+    public function projectDetails5()
+    {
+        return view('project-details-iot');
     }
 
     public function blog()

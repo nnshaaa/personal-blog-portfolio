@@ -1631,7 +1631,18 @@ section,
 
 .portfolio-details .portfolio-description p {
   padding: 0;
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  color: #000000;
+}
+
+.back-btn{
+    border-color: #34b7a7;
+    color: #34b7a7;
+}
+
+.back-btn:hover{
+    background-color: #34b7a7;
+    border-color: #34b7a7;
+    color: #fff;
 }
 
 /*--------------------------------------------------------------

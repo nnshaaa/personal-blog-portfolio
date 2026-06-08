@@ -91,7 +91,7 @@
                 <h4>Lakaran Impian</h4>
                 <p>Wedding Planner Mobile App UI Design</p>
                 <a href="<?= base_url('/') ?>/assets/img/masonry-portfolio/lakaranimpian.png" title="Lakaran Impian" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="<?= base_url('project-details') ?>" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <a href="<?= base_url('project-details-lakaranimpian') ?>" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
@@ -101,7 +101,7 @@
                 <h4>HeyKawan</h4>
                 <p>Mental Health Support Website</p>
                 <a href="<?= base_url('/') ?>/assets/img/masonry-portfolio/heykawan.png" title="HeyKawan" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="<?= base_url('project-details') ?>" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <a href="<?= base_url('project-details-heykawan') ?>" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
@@ -111,7 +111,7 @@
                 <h4>EduHub Center</h4>
                 <p>Tuition Center Management System</p>
                 <a href="<?= base_url('/') ?>/assets/img/masonry-portfolio/eduhub.png" title="EduHub Center" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="<?= base_url('project-details') ?>" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <a href="<?= base_url('project-details-eduhub') ?>" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
@@ -121,7 +121,7 @@
                 <h4>SpeakHand</h4>
                 <p>Malaysian Sign Language Learning Platform</p>
                 <a href="<?= base_url('/') ?>/assets/img/masonry-portfolio/speakhand.png" title="SpeakHand" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="<?= base_url('project-details') ?>" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <a href="<?= base_url('project-details-speakhand') ?>" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
@@ -131,7 +131,7 @@
                 <h4>IoT</h4>
                 <p>Smart Bed Patient Monitoring System</p>
                 <a href="<?= base_url('/') ?>/assets/img/masonry-portfolio/iot.jpg" title="IoT" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="<?= base_url('project-details') ?>" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <a href="<?= base_url('project-details-iot') ?>" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
