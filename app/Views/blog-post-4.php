@@ -151,46 +151,38 @@
           
           <!-- MAIN BLOG CONTENT --> 
           <div class="col-lg-6"> 
-            <a href="<?= base_url('blog') ?>" class="btn btn-outline-success mb-4"> <i class="bi bi-arrow-left"></i> Back to Blog </a><img src="<?= base_url('/') ?>/assets/img/portfolio/hatchquest3.jpg" class="img-fluid rounded mb-4" alt="Blog Image"> 
-            <h2>Earning Second Place in a Startup Competition</h2> 
+            <a href="<?= base_url('blog') ?>" class="btn btn-outline-success mb-4"> <i class="bi bi-arrow-left"></i> Back to Blog </a><img src="<?= base_url('/') ?>/assets/img/portfolio/deanlist3.jpg" class="img-fluid rounded mb-4" alt="Blog Image"> 
+            <h2>Achieving Dean's List Recognition: A Memorable Milestone</h2> 
             
             <p> 
-              HatchQuest Startup Challenge was one of the most exciting competitions that I had participated in during university. 
-              The competition was conducted over two days which inclding entrepreneurship workshops and startup pitching sessions.
+              One of the most memorable moments in my university journey was receiving Dean's List recognition for my academic performance. 
+              The recognition ceremony was held at the university auditorium and attended by students, lecturers and university representatives.
             </p> 
             
             <p> 
-              Our team pitching idea is about a mobile application designed to connect university students with flexible part-time job opportunities.
-              We named it as JobPocket. 
-              This application aimed to solve that problem that we identified where many students struggle to find jobs that fit around their academic schedules.
+              Walking into the auditorium that day felt very different from attending a normal event. 
+              I was excited, nervous and proud at the same time. 
+              Seeing many hardworking students gathered together reminded me of the dedication required to achieve academic excellence.
             </p> 
 
             <div class="row g-2 mb-4">
               <div class="col-md-6">
-                <img src="<?= base_url('/') ?>/assets/img/portfolio/hatchquest1.jpg" class="img-fluid rounded" alt="HatchQuest Image 1">
+                <img src="<?= base_url('/') ?>/assets/img/portfolio/deanlist2.jpg" class="img-fluid rounded" alt="Dean's List Image 1">
               </div>
 
               <div class="col-md-6">
-                <img src="<?= base_url('/') ?>/assets/img/portfolio/hatchquest2.jpg" class="img-fluid rounded" alt="HatchQuest Image 2">
+                <img src="<?= base_url('/') ?>/assets/img/portfolio/deanlist1.jpg" class="img-fluid rounded" alt="Dean's List Image 2">
               </div>
             </div>
-
-            <p> 
-              On the first day, participants attended workshops conducted by industry experts. 
-              They shared diverse of valuable insights about startup development, business models and pitching techniques. 
-              The sessions helped us refine our ideas and better understand market needs.
-            </p>
             
-            <p> 
-              The second day focused on pitching our startup idea to judges. 
-              Presenting in front of experienced professionals was challenging but also rewarding. 
-              When the results were announced and our team secured second place, we were thrilled and at the same time proud with our teamwork.
+            <p>
+              When my name was announced and I walked onto the stage to receive the certificate, I felt a strong sense of accomplishment. 
+              The certificate represented more than just grades—it symbolized countless hours spent attending lectures, completing assignments, preparing for examinations and balancing multiple responsibilities throughout the semester.
             </p>
             
             <p class="fst-italic">
-              Participating in the Hatch Quest competition was an unforgettable experience that improved my confidence in presenting ideas and working under pressure. 
-              Winning second place was a proud moment for my team and me.
-              More importantly, it showed us that a simple idea can grow into something impactful when supported by teamwork and determination.
+              Receiving the Dean’s List recognition was a rewarding milestone that reflected the effort, discipline and perseverance I maintained throughout the semester. 
+              It motivates me to continue striving for excellence in both academics and personal growth.
             </p> 
           </div> 
           <!-- RIGHT META INFO --> 
@@ -200,10 +192,10 @@
               <h5>Post Information</h5> 
               <ul> 
                 <li> <strong>Author</strong><br> Ainnisha Sofea </li> 
-                <li> <strong>Date</strong><br> December 13, 2025 </li> 
+                <li> <strong>Date</strong><br> November 18, 2025 </li> 
                 <li> <strong>Category</strong><br> Achievements </li> 
-                <li> <strong>Views</strong><br> 35 Views </li> 
-                <li> <strong>Reading Time</strong><br> 7 Minutes </li> 
+                <li> <strong>Views</strong><br> 20 Views </li> 
+                <li> <strong>Reading Time</strong><br> 5 Minutes </li> 
               </ul> 
             </div> 
           </div>

@@ -36,7 +36,7 @@
   ======================================================== -->
 </head>
 
-<body class="portfolio-details-page">
+<body class="blog-page">
 
   <header id="header" class="header d-flex align-items-center light-background sticky-top">
     <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
@@ -44,7 +44,7 @@
       <a href="<?= base_url('home') ?>" class="logo d-flex align-items-center me-auto me-xl-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">Kelly</h1>
+        <h1 class="sitename">Blog</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
@@ -70,80 +70,139 @@
 
   <main class="main">
 
-    <!-- Portfolio Details Section -->
-    <section id="portfolio-details" class="portfolio-details section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Blog Details</h2>
-        <p>Sharing experiences, achievements and learning moments throughout my university journey.</p>
-      </div><!-- End Section Title -->
+    <!-- Blog Details Section -->
+    <section id="blog" class="blog section">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row gy-4">
 
-          <!-- LEFT SIDEBAR --> 
-          <div class="col-lg-3"> 
-            
-            <div class="portfolio-info mb-4"> 
-              <img src="<?= base_url('/') ?>/assets/img/profile-img.jpg" class="img-fluid rounded-circle mb-3" alt="Profile"> 
-              <h4>Ainnisha Sofea</h4> 
-              <p> 
-                Software Development student passionate about web development, AI technologies and continuous learning.
-              </p> 
-            </div> 
-            
-            <div class="portfolio-info mb-4"> 
-              <h3>Popular Posts</h3> 
-              <ul> 
-                <li><a href="<?= base_url('blog-post-1') ?>">Student Activity Highlights</a></li> 
-                <li><a href="<?= base_url('blog-post-2') ?>">Learning Teamwork During a University Program</a></li> 
-                <li><a href="<?= base_url('blog-post-3') ?>">Academic Achievement Notes</a></li> 
-              </ul> 
-            </div> 
-            
-            <div class="portfolio-info"> 
-              <h3>Categories</h3> 
-              <ul> 
-                <li>Activities</li> 
-                <li>Achievements</li> 
-              </ul> 
-            </div> 
+          <!-- LEFT SIDEBAR -->
+          <div class="col-lg-3">
+            <aside class="blog-sidebar" data-aos="fade-up" data-aos-delay="150">
+
+              <div class="sidebar-widget author-widget text-center">
+                <img src="<?= base_url('/') ?>/assets/img/profile.png" class="author-img" alt="Ainnisha Sofea">
+                <h4>Ainnisha Sofea</h4>
+                <p class="role">Software Development Student</p>
+                <p>
+                  Passionate about web development and creating technology-driven solutions that solve real-world problems.
+                  I enjoy transforming ideas into practical solutions while continuously improving my technical and problem-solving skills. 
+                </p>
+              </div><!-- End Author Widget -->
+
+              <div class="sidebar-widget">
+                <h4>Favourite Posts</h4>
+                <div class="sidebar-post">
+                  <img src="<?= base_url('/') ?>/assets/img/portfolio/deanlist3.jpg" alt="Popular post">
+                  <div>
+                    <h5><a href="<?= base_url('blog-post-4') ?>">Achieving Dean's List Recognition</a></h5>
+                    <span>November, 2025</span>
+                  </div>
+                </div>
+                <div class="sidebar-post">
+                  <img src="<?= base_url('/') ?>/assets/img/portfolio/hatchquest3.jpg" alt="Popular post">
+                  <div>
+                    <h5><a href="<?= base_url('blog-post-3') ?>">Earning Second Place in a Startup Competition</a></h5>
+                    <span>December, 2024</span>
+                  </div>
+                </div>
+                <div class="sidebar-post">
+                  <img src="<?= base_url('/') ?>/assets/img/portfolio/iot2.jpg" alt="Popular post">
+                  <div>
+                    <h5><a href="<?= base_url('blog-post-1') ?>">From Hospital Experience to an IoT Solution</a></h5>
+                    <span>February, 2026</span>
+                  </div>
+                </div>
+              </div><!-- End Popular Posts -->
+
+              <div class="sidebar-widget categories-widget">
+                <h4>Categories</h4>
+                <ul>
+                  <li><a href="#">Activities <span>4</span></a></li>
+                  <li><a href="#">Achievements <span>2</span></a></li>
+                </ul>
+              </div><!-- End Categories -->
+
+              <div class="sidebar-widget">
+                <h4>Recent Posts</h4>
+                <div class="sidebar-post">
+                  <img src="<?= base_url('/') ?>/assets/img/portfolio/iot2.jpg" alt="Recent post">
+                  <div>
+                    <h5><a href="<?= base_url('blog-post-1') ?>">From Hospital Experience to an IoT Solution</a></h5>
+                  </div>
+                </div>
+                <div class="sidebar-post">
+                  <img src="<?= base_url('/') ?>/assets/img/portfolio/eduhub1.png" alt="Recent post">
+                  <div>
+                    <h5><a href="<?= base_url('blog-post-2') ?>">Developing EduHub Center with My Team</a></h5>
+                  </div>
+                </div>
+                <div class="sidebar-post">
+                  <img src="<?= base_url('/') ?>/assets/img/portfolio/hatchquest3.jpg" alt="Recent post">
+                  <div>
+                    <h5><a href="<?= base_url('blog-post-3') ?>">Earning Second Place in a Startup Competition</a></h5>
+                  </div>
+                </div>
+              </div><!-- End Recent Posts -->
+
+            </aside>
           </div> 
           
           <!-- MAIN BLOG CONTENT --> 
           <div class="col-lg-6"> 
-            <a href="<?= base_url('blog') ?>" class="btn btn-outline-success mb-4"> <i class="bi bi-arrow-left"></i> Back to Blog </a><img src="<?= base_url('/') ?>/assets/img/masonry-portfolio/masonry-portfolio-1.jpg" class="img-fluid rounded mb-4" alt="Blog Image"> 
-            <h2>Exploring Campus Life Through Student Activities</h2> 
+            <a href="<?= base_url('blog') ?>" class="btn btn-outline-success mb-4"> <i class="bi bi-arrow-left"></i> Back to Blog </a><img src="<?= base_url('/') ?>/assets/img/portfolio/iot1.jpg" class="img-fluid rounded mb-4" alt="Blog Image"> 
+            <h2>From Hospital Experience to an IoT Solution</h2> 
             
             <p> 
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla. 
+              The idea for this project came from a personal experience when I spent time helping to take care of my grandmother during her hospital stay. 
+              While observing the healthcare environment, I realized that nurses and family members often needed to monitor patient conditions continuously. 
+              This inspired me to explore how Internet of Things (IoT) technology could help improve patient monitoring in a simpler and more efficient way. 
             </p> 
             
             <p> 
-              Cras mattis consectetur purus sit amet fermentum. Vestibulum id ligula porta felis euismod semper. Maecenas faucibus mollis interdum. 
+              As part of my final assessment for the Internet of Things subject, I developed a healthcare monitoring system capable of collecting and displaying patient data in real time. 
+              The main objective of the project was to provide caregivers with faster access to important health information and improve monitoring efficiency. 
             </p> 
+
+            <div class="row g-2 mb-4">
+              <div class="col-md-6">
+                <img src="<?= base_url('/') ?>/assets/img/portfolio/iot3.jpg" class="img-fluid rounded" alt="IoT Project Image 1">
+              </div>
+
+              <div class="col-md-6">
+                <img src="<?= base_url('/') ?>/assets/img/portfolio/iot2.jpg" class="img-fluid rounded" alt="IoT Project Image 2">
+              </div>
+            </div>
             
             <p> 
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nulla vitae elit libero, a pharetra augue. Curabitur blandit tempus porttitor. 
-            </p> 
+              For the hardware component, I used an ESP32 microcontroller as the central processing unit. 
+              Several sensors were connected to the ESP32 to collect data such as body temperature and patient movement. 
+              The collected data was then transmitted through a wireless network and displayed on a monitoring dashboard. 
+            </p>
             
             <p> 
-              Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. 
+              After then, I integrated cloud-based services that allowed real-time monitoring from different devices to store and visualize the data.
+              This enabled healthcare personnel or family members to access patient information remotely without being physically present at all times.
+            </p>
+            
+            <p class="fst-italic">
+              Looking back, this project was more than just an assignment. 
+              It gave me the opportunity to apply IoT concepts in a real-world scenario while developing a solution inspired by my own experience caring for a family member in the hospital.
+              More importantly, this project showed me how technology can be used not only for innovation but also to improve people's quality of life.
             </p> 
           </div> 
           <!-- RIGHT META INFO --> 
            
           <div class="col-lg-3"> 
             <div class="portfolio-info"> 
-              <h3>Post Information</h3> 
+              <h5>Post Information</h5> 
               <ul> 
                 <li> <strong>Author</strong><br> Ainnisha Sofea </li> 
-                <li> <strong>Date</strong><br> Jan 12, 2026 </li> 
+                <li> <strong>Date</strong><br> February 15, 2026 </li> 
                 <li> <strong>Category</strong><br> Activities </li> 
-                <li> <strong>Views</strong><br> 245 Views </li> 
-                <li> <strong>Reading Time</strong><br> 3 Minutes </li> 
+                <li> <strong>Views</strong><br> 15 Views </li> 
+                <li> <strong>Reading Time</strong><br> 4 Minutes </li> 
               </ul> 
             </div> 
           </div>
@@ -160,7 +219,7 @@
 
     <div class="container">
       <div class="copyright text-center ">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">Kelly</strong> <span>All Rights Reserved<br></span></p>
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Blog</strong> <span>All Rights Reserved<br></span></p>
       </div>
       <div class="social-links d-flex justify-content-center">
         <a href=""><i class="bi bi-twitter-x"></i></a>

@@ -151,46 +151,37 @@
           
           <!-- MAIN BLOG CONTENT --> 
           <div class="col-lg-6"> 
-            <a href="<?= base_url('blog') ?>" class="btn btn-outline-success mb-4"> <i class="bi bi-arrow-left"></i> Back to Blog </a><img src="<?= base_url('/') ?>/assets/img/portfolio/hatchquest3.jpg" class="img-fluid rounded mb-4" alt="Blog Image"> 
-            <h2>Earning Second Place in a Startup Competition</h2> 
+            <a href="<?= base_url('blog') ?>" class="btn btn-outline-success mb-4"> <i class="bi bi-arrow-left"></i> Back to Blog </a><img src="<?= base_url('/') ?>/assets/img/masonry-portfolio/heykawan.png" class="img-fluid rounded mb-4" alt="Blog Image"> 
+            <h2>Creating HeyKawan: A Safe Space for Students to Share</h2> 
             
             <p> 
-              HatchQuest Startup Challenge was one of the most exciting competitions that I had participated in during university. 
-              The competition was conducted over two days which inclding entrepreneurship workshops and startup pitching sessions.
+              The idea for this HeyKawan website was originated from observing how many students experience stress, burnout and emotional challenges throughout university life. 
+              Sometimes students simply need someone to listen but they may not feel comfortable sharing their thoughts openly.
             </p> 
             
             <p> 
-              Our team pitching idea is about a mobile application designed to connect university students with flexible part-time job opportunities.
-              We named it as JobPocket. 
-              This application aimed to solve that problem that we identified where many students struggle to find jobs that fit around their academic schedules.
+              Therefore, I decided to create a platform that encourages communication and emotional support among students for my Web Application Development final project. 
+              The goal was to provide a digital space where students could share experiences, seek advice and connect with others who are facing similar challenges.
             </p> 
 
             <div class="row g-2 mb-4">
               <div class="col-md-6">
-                <img src="<?= base_url('/') ?>/assets/img/portfolio/hatchquest1.jpg" class="img-fluid rounded" alt="HatchQuest Image 1">
+                <img src="<?= base_url('/') ?>/assets/img/portfolio/heykawan1.png" class="img-fluid rounded" alt="HeyKawan Project Image 1">
               </div>
 
               <div class="col-md-6">
-                <img src="<?= base_url('/') ?>/assets/img/portfolio/hatchquest2.jpg" class="img-fluid rounded" alt="HatchQuest Image 2">
+                <img src="<?= base_url('/') ?>/assets/img/portfolio/heykawan4.png" class="img-fluid rounded" alt="HeyKawan Project Image 2">
               </div>
             </div>
-
-            <p> 
-              On the first day, participants attended workshops conducted by industry experts. 
-              They shared diverse of valuable insights about startup development, business models and pitching techniques. 
-              The sessions helped us refine our ideas and better understand market needs.
-            </p>
             
             <p> 
-              The second day focused on pitching our startup idea to judges. 
-              Presenting in front of experienced professionals was challenging but also rewarding. 
-              When the results were announced and our team secured second place, we were thrilled and at the same time proud with our teamwork.
+              The website was developed using HTML, CSS, JavaScript, PHP and MySQL. 
+              Throughout the project, I focused on creating an interface that felt welcoming, simple and easy to use.
             </p>
             
             <p class="fst-italic">
-              Participating in the Hatch Quest competition was an unforgettable experience that improved my confidence in presenting ideas and working under pressure. 
-              Winning second place was a proud moment for my team and me.
-              More importantly, it showed us that a simple idea can grow into something impactful when supported by teamwork and determination.
+              Developing HeyKawan allowed me to combine technical skills with a meaningful purpose. 
+              This project reinforced my belief that technology can be used not only to solve problems but also to create positive impacts on people’s lives.
             </p> 
           </div> 
           <!-- RIGHT META INFO --> 
@@ -200,10 +191,10 @@
               <h5>Post Information</h5> 
               <ul> 
                 <li> <strong>Author</strong><br> Ainnisha Sofea </li> 
-                <li> <strong>Date</strong><br> December 13, 2025 </li> 
-                <li> <strong>Category</strong><br> Achievements </li> 
-                <li> <strong>Views</strong><br> 35 Views </li> 
-                <li> <strong>Reading Time</strong><br> 7 Minutes </li> 
+                <li> <strong>Date</strong><br> February 20, 2025 </li> 
+                <li> <strong>Category</strong><br> Activities </li> 
+                <li> <strong>Views</strong><br> 15 Views </li> 
+                <li> <strong>Reading Time</strong><br> 6 Minutes </li> 
               </ul> 
             </div> 
           </div>

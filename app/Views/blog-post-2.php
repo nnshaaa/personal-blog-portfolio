@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Portfolio Details - Kelly Bootstrap Template</title>
+  <title>Blog Details - </title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -36,7 +36,7 @@
   ======================================================== -->
 </head>
 
-<body class="portfolio-details-page">
+<body class="blog-page">
 
   <header id="header" class="header d-flex align-items-center light-background sticky-top">
     <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
@@ -44,7 +44,7 @@
       <a href="<?= base_url('home') ?>" class="logo d-flex align-items-center me-auto me-xl-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">Kelly</h1>
+        <h1 class="sitename">Blog</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
@@ -70,77 +70,144 @@
 
   <main class="main">
 
-    <!-- Portfolio Details Section -->
-    <section id="portfolio-details" class="portfolio-details section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Portfolio Details</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
+    <!-- Blog Details Section -->
+    <section id="blog" class="blog section">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row gy-4">
 
-          <div class="col-lg-8">
-            <div class="portfolio-details-slider swiper init-swiper">
+          <!-- LEFT SIDEBAR -->
+          <div class="col-lg-3">
+            <aside class="blog-sidebar" data-aos="fade-up" data-aos-delay="150">
 
-              <script type="application/json" class="swiper-config">
-                {
-                  "loop": true,
-                  "speed": 600,
-                  "autoplay": {
-                    "delay": 5000
-                  },
-                  "slidesPerView": "auto",
-                  "pagination": {
-                    "el": ".swiper-pagination",
-                    "type": "bullets",
-                    "clickable": true
-                  }
-                }
-              </script>
+              <div class="sidebar-widget author-widget text-center">
+                <img src="<?= base_url('/') ?>/assets/img/profile.png" class="author-img" alt="Ainnisha Sofea">
+                <h4>Ainnisha Sofea</h4>
+                <p class="role">Software Development Student</p>
+                <p>
+                  Passionate about web development and creating technology-driven solutions that solve real-world problems.
+                  I enjoy transforming ideas into practical solutions while continuously improving my technical and problem-solving skills. 
+                </p>
+              </div><!-- End Author Widget -->
 
-              <div class="swiper-wrapper align-items-center">
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/app-1.jpg" alt="">
+              <div class="sidebar-widget">
+                <h4>Favourite Posts</h4>
+                <div class="sidebar-post">
+                  <img src="<?= base_url('/') ?>/assets/img/portfolio/deanlist3.jpg" alt="Popular post">
+                  <div>
+                    <h5><a href="<?= base_url('blog-post-4') ?>">Achieving Dean's List Recognition</a></h5>
+                    <span>November, 2025</span>
+                  </div>
                 </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/product-1.jpg" alt="">
+                <div class="sidebar-post">
+                  <img src="<?= base_url('/') ?>/assets/img/portfolio/hatchquest3.jpg" alt="Popular post">
+                  <div>
+                    <h5><a href="<?= base_url('blog-post-3') ?>">Earning Second Place in a Startup Competition</a></h5>
+                    <span>December, 2024</span>
+                  </div>
                 </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/branding-1.jpg" alt="">
+                <div class="sidebar-post">
+                  <img src="<?= base_url('/') ?>/assets/img/portfolio/iot2.jpg" alt="Popular post">
+                  <div>
+                    <h5><a href="<?= base_url('blog-post-1') ?>">From Hospital Experience to an IoT Solution</a></h5>
+                    <span>February, 2026</span>
+                  </div>
                 </div>
+              </div><!-- End Popular Posts -->
 
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/books-1.jpg" alt="">
+              <div class="sidebar-widget categories-widget">
+                <h4>Categories</h4>
+                <ul>
+                  <li><a href="#">Activities <span>4</span></a></li>
+                  <li><a href="#">Achievements <span>2</span></a></li>
+                </ul>
+              </div><!-- End Categories -->
+
+              <div class="sidebar-widget">
+                <h4>Recent Posts</h4>
+                <div class="sidebar-post">
+                  <img src="<?= base_url('/') ?>/assets/img/portfolio/iot2.jpg" alt="Recent post">
+                  <div>
+                    <h5><a href="<?= base_url('blog-post-1') ?>">From Hospital Experience to an IoT Solution</a></h5>
+                  </div>
                 </div>
+                <div class="sidebar-post">
+                  <img src="<?= base_url('/') ?>/assets/img/portfolio/eduhub1.png" alt="Recent post">
+                  <div>
+                    <h5><a href="<?= base_url('blog-post-2') ?>">Developing EduHub Center with My Team</a></h5>
+                  </div>
+                </div>
+                <div class="sidebar-post">
+                  <img src="<?= base_url('/') ?>/assets/img/portfolio/hatchquest3.jpg" alt="Recent post">
+                  <div>
+                    <h5><a href="<?= base_url('blog-post-3') ?>">Earning Second Place in a Startup Competition</a></h5>
+                  </div>
+                </div>
+              </div><!-- End Recent Posts -->
 
+            </aside>
+          </div> 
+          
+          <!-- MAIN BLOG CONTENT --> 
+          <div class="col-lg-6"> 
+            <a href="<?= base_url('blog') ?>" class="btn btn-outline-success mb-4"> <i class="bi bi-arrow-left"></i> Back to Blog </a><img src="<?= base_url('/') ?>/assets/img/portfolio/eduhub1.png" class="img-fluid rounded mb-4" alt="Blog Image"> 
+            <h2>Developing EduHub Center with My Team</h2> 
+            
+            <p> 
+              EduHub Center was developed as a group project that required us to experience a complete software development lifecycle. 
+              The goal of the project is to create a platform that helps educational centers manage students, courses and learning materials efficiently.
+            </p> 
+
+            <div class="row g-2 mb-4">
+              <div class="col-md-6">
+                <img src="<?= base_url('/') ?>/assets/img/portfolio/eduhub2.png" class="img-fluid rounded" alt="EduHub Project Image 1">
               </div>
-              <div class="swiper-pagination"></div>
-            </div>
-          </div>
 
-          <div class="col-lg-4">
-            <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
-              <h3>Project information</h3>
-              <ul>
-                <li><strong>Category</strong>: Web design</li>
-                <li><strong>Client</strong>: ASU Company</li>
-                <li><strong>Project date</strong>: 01 March, 2020</li>
-                <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
-              </ul>
+              <div class="col-md-6">
+                <img src="<?= base_url('/') ?>/assets/img/portfolio/eduhub3.png" class="img-fluid rounded" alt="EduHub Project Image 2">
+              </div>
             </div>
-            <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
-              <h2>Exercitationem repudiandae officiis neque suscipit</h2>
-              <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
-              </p>
+            
+            <p> 
+              My primary responsibility was developing the student module. 
+              This involved creating student registration functions, profile management and features related to learning activities. 
+              Throughout development, I applied HTML, CSS, JavaScript, PHP and MySQL to build the required functionalities.
+            </p> 
+
+            <div class="row g-2 mb-4">
+              <div class="col-md-6">
+                <img src="<?= base_url('/') ?>/assets/img/portfolio/eduhub7.png" class="img-fluid rounded" alt="EduHub Project Image 1">
+              </div>
+
+              <div class="col-md-6">
+                <img src="<?= base_url('/') ?>/assets/img/portfolio/eduhub8.png" class="img-fluid rounded" alt="EduHub Project Image 2">
+              </div>
             </div>
+            
+            <p> 
+              Besides coding, our team was also responsible for developing comprehensive project documentation. 
+              This included Software Requirements Specification (SRS), Software Design Specification (SDS), testing reports and user manuals.
+            </p>
+            
+            <p class="fst-italic"> 
+              One of the biggest challenges was coordinating development tasks while ensuring consistency between the system implementation and documentation. 
+              Overall, the project has strengthened my technical skills, teamwork abilities and understanding of software engineering practices.
+            </p> 
+          </div> 
+          <!-- RIGHT META INFO --> 
+           
+          <div class="col-lg-3"> 
+            <div class="portfolio-info"> 
+              <h5>Post Information</h5> 
+              <ul> 
+                <li> <strong>Author</strong><br> Ainnisha Sofea </li> 
+                <li> <strong>Date</strong><br> February 10, 2026 </li> 
+                <li> <strong>Category</strong><br> Activities </li> 
+                <li> <strong>Views</strong><br> 20 Views </li> 
+                <li> <strong>Reading Time</strong><br> 6 Minutes </li> 
+              </ul> 
+            </div> 
           </div>
 
         </div>
@@ -155,7 +222,7 @@
 
     <div class="container">
       <div class="copyright text-center ">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">Kelly</strong> <span>All Rights Reserved<br></span></p>
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Blog</strong> <span>All Rights Reserved<br></span></p>
       </div>
       <div class="social-links d-flex justify-content-center">
         <a href=""><i class="bi bi-twitter-x"></i></a>

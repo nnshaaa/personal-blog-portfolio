@@ -76,7 +76,7 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Blog</h2>
-        <p>Sharing my academic journey, university activities, achievements, projects, and learning experiences throughout university.</p>
+        <p>This blog is where I share my university experiences, achievements and project development journey throughout university.</p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -86,39 +86,36 @@
             <aside class="blog-sidebar" data-aos="fade-up" data-aos-delay="150">
 
               <div class="sidebar-widget author-widget text-center">
-                <img src="<?= base_url('/') ?>/assets/img/profile-img.jpg" class="author-img" alt="Ainnisha Sofea">
+                <img src="<?= base_url('/') ?>/assets/img/profile.png" class="author-img" alt="Ainnisha Sofea">
                 <h4>Ainnisha Sofea</h4>
                 <p class="role">Software Development Student</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. I share simple notes about learning, activities, and university experiences.</p>
-                <div class="social-links d-flex justify-content-center">
-                  <a href="#"><i class="bi bi-twitter-x"></i></a>
-                  <a href="#"><i class="bi bi-facebook"></i></a>
-                  <a href="#"><i class="bi bi-instagram"></i></a>
-                  <a href="#"><i class="bi bi-linkedin"></i></a>
-                </div>
+                <p>
+                  Passionate about web development and creating technology-driven solutions that solve real-world problems.
+                  I enjoy transforming ideas into practical solutions while continuously improving my technical and problem-solving skills. 
+                </p>
               </div><!-- End Author Widget -->
 
               <div class="sidebar-widget">
-                <h4>Popular Posts</h4>
+                <h4>Favourite Posts</h4>
                 <div class="sidebar-post">
-                  <img src="<?= base_url('/') ?>/assets/img/masonry-portfolio/masonry-portfolio-6.jpg" alt="Popular post">
+                  <img src="<?= base_url('/') ?>/assets/img/portfolio/deanlist3.jpg" alt="Popular post">
                   <div>
-                    <h5><a href="<?= base_url('blog-post-1') ?>">Student Activity Highlights</a></h5>
-                    <span>Jan 12, 2026</span>
+                    <h5><a href="<?= base_url('blog-post-4') ?>">Achieving Dean's List Recognition</a></h5>
+                    <span>November, 2025</span>
                   </div>
                 </div>
                 <div class="sidebar-post">
-                  <img src="<?= base_url('/') ?>/assets/img/masonry-portfolio/masonry-portfolio-7.jpg" alt="Popular post">
+                  <img src="<?= base_url('/') ?>/assets/img/portfolio/hatchquest3.jpg" alt="Popular post">
                   <div>
-                    <h5><a href="<?= base_url('blog-post-3') ?>">Academic Achievement Notes</a></h5>
-                    <span>Mar 18, 2026</span>
+                    <h5><a href="<?= base_url('blog-post-3') ?>">Earning Second Place in a Startup Competition</a></h5>
+                    <span>December, 2024</span>
                   </div>
                 </div>
                 <div class="sidebar-post">
-                  <img src="<?= base_url('/') ?>/assets/img/masonry-portfolio/masonry-portfolio-8.jpg" alt="Popular post">
+                  <img src="<?= base_url('/') ?>/assets/img/portfolio/iot2.jpg" alt="Popular post">
                   <div>
-                    <h5><a href="<?= base_url('blog-post-5') ?>">Practical Learning Journey</a></h5>
-                    <span>May 21, 2026</span>
+                    <h5><a href="<?= base_url('blog-post-1') ?>">From Hospital Experience to an IoT Solution</a></h5>
+                    <span>February, 2026</span>
                   </div>
                 </div>
               </div><!-- End Popular Posts -->
@@ -126,7 +123,7 @@
               <div class="sidebar-widget categories-widget">
                 <h4>Categories</h4>
                 <ul>
-                  <li><a href="#">Activities <span>3</span></a></li>
+                  <li><a href="#">Activities <span>4</span></a></li>
                   <li><a href="#">Achievements <span>2</span></a></li>
                 </ul>
               </div><!-- End Categories -->
@@ -134,21 +131,21 @@
               <div class="sidebar-widget">
                 <h4>Recent Posts</h4>
                 <div class="sidebar-post">
-                  <img src="<?= base_url('/') ?>/assets/img/masonry-portfolio/masonry-portfolio-9.jpg" alt="Recent post">
+                  <img src="<?= base_url('/') ?>/assets/img/portfolio/iot2.jpg" alt="Recent post">
                   <div>
-                    <h5><a href="<?= base_url('blog-post-5') ?>">Building Confidence Through Practical Learning</a></h5>
+                    <h5><a href="<?= base_url('blog-post-1') ?>">From Hospital Experience to an IoT Solution</a></h5>
                   </div>
                 </div>
                 <div class="sidebar-post">
-                  <img src="<?= base_url('/') ?>/assets/img/portfolio/app-1.jpg" alt="Recent post">
+                  <img src="<?= base_url('/') ?>/assets/img/portfolio/eduhub1.png" alt="Recent post">
                   <div>
-                    <h5><a href="<?= base_url('blog-post-4') ?>">Receiving Recognition for a Class Project</a></h5>
+                    <h5><a href="<?= base_url('blog-post-2') ?>">Developing EduHub Center with My Team</a></h5>
                   </div>
                 </div>
                 <div class="sidebar-post">
-                  <img src="<?= base_url('/') ?>/assets/img/portfolio/books-1.jpg" alt="Recent post">
+                  <img src="<?= base_url('/') ?>/assets/img/portfolio/hatchquest3.jpg" alt="Recent post">
                   <div>
-                    <h5><a href="<?= base_url('blog-post-3') ?>">Celebrating a New Academic Milestone</a></h5>
+                    <h5><a href="<?= base_url('blog-post-3') ?>">Earning Second Place in a Startup Competition</a></h5>
                   </div>
                 </div>
               </div><!-- End Recent Posts -->
@@ -169,15 +166,17 @@
 
                 <div class="col-11 blog-post isotope-item filter-activities">
                   <article class="blog-post-card">
-                    <img src="<?= base_url('/') ?>/assets/img/masonry-portfolio/masonry-portfolio-1.jpg" class="img-fluid" alt="University activity">
+                    <img src="<?= base_url('/') ?>/assets/img/portfolio/iot2.jpg" class="img-fluid" alt="University activity">
                     <div class="blog-post-content">
-                      <h3>Exploring Campus Life Through Student Activities</h3>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+                      <h3>From Hospital Experience to an IoT Solution</h3>
+                      <p>
+                        A final assessment project for my Internet of Things subject, inspired by my experience caring for my grandmother in the hospital and designed to improve patient monitoring through connected healthcare technology.
+                      </p>
                       <div class="blog-meta d-flex flex-wrap gap-3">
                         <span><i class="bi bi-person"></i> Ainnisha Sofea</span>
-                        <span><i class="bi bi-calendar"></i> Jan 12, 2026</span>
-                        <span><i class="bi bi-eye"></i> 245 Views</span>
-                        <span><i class="bi bi-chat-dots"></i> 12 Comments</span>
+                        <span><i class="bi bi-calendar"></i> February 15, 2026</span>
+                        <span><i class="bi bi-eye"></i> 15 Views</span>
+                        <span><i class="bi bi-clock-history"></i> 4 Minutes</span>
                       </div>
                       <a href="<?= base_url('blog-post-1') ?>" class="btn-get-started">View More</a>
                     </div>
@@ -186,15 +185,17 @@
 
                 <div class="col-11 blog-post isotope-item filter-activities">
                   <article class="blog-post-card">
-                    <img src="<?= base_url('/') ?>/assets/img/masonry-portfolio/masonry-portfolio-2.jpg" class="img-fluid" alt="Group project activity">
+                    <img src="<?= base_url('/') ?>/assets/img/portfolio/eduhub1.png" class="img-fluid" alt="Academic achievement">
                     <div class="blog-post-content">
-                      <h3>Learning Teamwork During a University Program</h3>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      <h3>Developing EduHub Center with My Team</h3>
+                      <p>
+                        A collaborative software development project that challenged our team to design, develop, document and test a complete educational management system from start to finish.
+                      </p>
                       <div class="blog-meta d-flex flex-wrap gap-3">
                         <span><i class="bi bi-person"></i> Ainnisha Sofea</span>
-                        <span><i class="bi bi-calendar"></i> Feb 4, 2026</span>
-                        <span><i class="bi bi-eye"></i> 198 Views</span>
-                        <span><i class="bi bi-chat-dots"></i> 8 Comments</span>
+                        <span><i class="bi bi-calendar"></i> February 10, 2026</span>
+                        <span><i class="bi bi-eye"></i> 20 Views</span>
+                        <span><i class="bi bi-clock-history"></i> 6 Minutes</span>
                       </div>
                       <a href="<?= base_url('blog-post-2') ?>" class="btn-get-started">View More</a>
                     </div>
@@ -203,15 +204,17 @@
 
                 <div class="col-11 blog-post isotope-item filter-achievements">
                   <article class="blog-post-card">
-                    <img src="<?= base_url('/') ?>/assets/img/masonry-portfolio/masonry-portfolio-3.jpg" class="img-fluid" alt="Academic achievement">
+                    <img src="<?= base_url('/') ?>/assets/img/portfolio/hatchquest3.jpg" class="img-fluid" alt="Learning experience">
                     <div class="blog-post-content">
-                      <h3>Celebrating a New Academic Milestone</h3>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                      <h3>Earning Second Place in a Startup Competition</h3>
+                      <p>
+                        An exciting two-day startup competition where my team developed and pitched a startup idea designed specifically for university students and earning second place among competing teams.
+                      </p>
                       <div class="blog-meta d-flex flex-wrap gap-3">
                         <span><i class="bi bi-person"></i> Ainnisha Sofea</span>
-                        <span><i class="bi bi-calendar"></i> Mar 18, 2026</span>
-                        <span><i class="bi bi-eye"></i> 320 Views</span>
-                        <span><i class="bi bi-chat-dots"></i> 15 Comments</span>
+                        <span><i class="bi bi-calendar"></i> December 13, 2024</span>
+                        <span><i class="bi bi-eye"></i> 25 Views</span>
+                        <span><i class="bi bi-clock-history"></i> 7 Minutes</span>
                       </div>
                       <a href="<?= base_url('blog-post-3') ?>" class="btn-get-started">View More</a>
                     </div>
@@ -220,15 +223,17 @@
 
                 <div class="col-11 blog-post isotope-item filter-achievements">
                   <article class="blog-post-card">
-                    <img src="<?= base_url('/') ?>/assets/img/masonry-portfolio/masonry-portfolio-4.jpg" class="img-fluid" alt="Award achievement">
+                    <img src="<?= base_url('/') ?>/assets/img/portfolio/deanlist3.jpg" class="img-fluid" alt="Group project activity">
                     <div class="blog-post-content">
-                      <h3>Receiving Recognition for a Class Project</h3>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                      <h3>Achieving Dean's List Recognition: A Memorable Milestone</h3>
+                      <p>
+                        Receiving Dean's List recognition was one of the most rewarding moments of my university journey and a reflection of the effort, discipline and perseverance invested throughout the semester.
+                      </p>
                       <div class="blog-meta d-flex flex-wrap gap-3">
                         <span><i class="bi bi-person"></i> Ainnisha Sofea</span>
-                        <span><i class="bi bi-calendar"></i> Apr 9, 2026</span>
-                        <span><i class="bi bi-eye"></i> 276 Views</span>
-                        <span><i class="bi bi-chat-dots"></i> 10 Comments</span>
+                        <span><i class="bi bi-calendar"></i> September 25, 2025</span>
+                        <span><i class="bi bi-eye"></i> 20 Views</span>
+                        <span><i class="bi bi-clock-history"></i> 5 Minutes</span>
                       </div>
                       <a href="<?= base_url('blog-post-4') ?>" class="btn-get-started">View More</a>
                     </div>
@@ -237,17 +242,38 @@
 
                 <div class="col-11 blog-post isotope-item filter-activities">
                   <article class="blog-post-card">
-                    <img src="<?= base_url('/') ?>/assets/img/masonry-portfolio/masonry-portfolio-5.jpg" class="img-fluid" alt="Learning experience">
+                    <img src="<?= base_url('/') ?>/assets/img/masonry-portfolio/heykawan.png" class="img-fluid" alt="Learning experience">
                     <div class="blog-post-content">
-                      <h3>Building Confidence Through Practical Learning</h3>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia bibendum nulla sed consectetur.</p>
+                      <h3>Creating HeyKawan: A Safe Space for Students to Share</h3>
+                      <p>
+                        A web application project inspired by student burnout and emotional well-being designed to provide a safe and supportive space for students to express their thoughts and feelings.
+                      </p>
                       <div class="blog-meta d-flex flex-wrap gap-3">
                         <span><i class="bi bi-person"></i> Ainnisha Sofea</span>
-                        <span><i class="bi bi-calendar"></i> May 21, 2026</span>
-                        <span><i class="bi bi-eye"></i> 301 Views</span>
-                        <span><i class="bi bi-chat-dots"></i> 14 Comments</span>
+                        <span><i class="bi bi-calendar"></i> February 20, 2025</span>
+                        <span><i class="bi bi-eye"></i> 35 Views</span>
+                        <span><i class="bi bi-clock-history"></i> 5 Minutes</span>
                       </div>
                       <a href="<?= base_url('blog-post-5') ?>" class="btn-get-started">View More</a>
+                    </div>
+                  </article>
+                </div><!-- End Blog Post -->
+
+                <div class="col-11 blog-post isotope-item filter-activities">
+                  <article class="blog-post-card">
+                    <img src="<?= base_url('/') ?>/assets/img/portfolio/lakaranimpian1.png" class="img-fluid" alt="Award achievement">
+                    <div class="blog-post-content">
+                      <h3>Designing Lakaran Impian: From UI Concept to Mobile Application</h3>
+                      <p>
+                        A mobile application design project focused on creating a wedding planning platform, where I contributed to the bride and groom user interface from concept design to application development.
+                      </p>
+                      <div class="blog-meta d-flex flex-wrap gap-3">
+                        <span><i class="bi bi-person"></i> Ainnisha Sofea</span>
+                        <span><i class="bi bi-calendar"></i> February 16, 2025</span>
+                        <span><i class="bi bi-eye"></i> 30 Views</span>
+                        <span><i class="bi bi-clock-history"></i> 5 Minutes</span>
+                      </div>
+                      <a href="<?= base_url('blog-post-6') ?>" class="btn-get-started">View More</a>
                     </div>
                   </article>
                 </div><!-- End Blog Post -->
@@ -268,7 +294,7 @@
 
     <div class="container">
       <div class="copyright text-center ">
-        <p>Â© <span>Copyright</span> <strong class="px-1 sitename">Kelly</strong> <span>All Rights Reserved<br></span></p>
+        <p>Â© <span>Copyright</span> <strong class="px-1 sitename">Blog</strong> <span>All Rights Reserved<br></span></p>
       </div>
       <div class="social-links d-flex justify-content-center">
         <a href=""><i class="bi bi-twitter-x"></i></a>

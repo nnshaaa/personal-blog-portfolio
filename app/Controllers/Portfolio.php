@@ -64,6 +64,21 @@ class Portfolio extends BaseController
         return view('blog-post-3');
     }
 
+    public function blogPost4()
+    {
+        return view('blog-post-4');
+    }
+
+    public function blogPost5()
+    {
+        return view('blog-post-5');
+    }
+
+    public function blogPost6()
+    {
+        return view('blog-post-6');
+    }
+
     public function contact()
     {
         return view('contact');

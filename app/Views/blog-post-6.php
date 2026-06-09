@@ -151,46 +151,34 @@
           
           <!-- MAIN BLOG CONTENT --> 
           <div class="col-lg-6"> 
-            <a href="<?= base_url('blog') ?>" class="btn btn-outline-success mb-4"> <i class="bi bi-arrow-left"></i> Back to Blog </a><img src="<?= base_url('/') ?>/assets/img/portfolio/hatchquest3.jpg" class="img-fluid rounded mb-4" alt="Blog Image"> 
-            <h2>Earning Second Place in a Startup Competition</h2> 
+            <a href="<?= base_url('blog') ?>" class="btn btn-outline-success mb-4"> <i class="bi bi-arrow-left"></i> Back to Blog </a><img src="<?= base_url('/') ?>/assets/img/portfolio/lakaranimpian1.png" class="img-fluid rounded mb-4" alt="Blog Image"> 
+            <h2>Designing Lakaran Impian: From UI Concept to Mobile Application</h2> 
             
             <p> 
-              HatchQuest Startup Challenge was one of the most exciting competitions that I had participated in during university. 
-              The competition was conducted over two days which inclding entrepreneurship workshops and startup pitching sessions.
-            </p> 
-            
-            <p> 
-              Our team pitching idea is about a mobile application designed to connect university students with flexible part-time job opportunities.
-              We named it as JobPocket. 
-              This application aimed to solve that problem that we identified where many students struggle to find jobs that fit around their academic schedules.
+              Lakaran Impian was developed as a group assignment for the Mobile Application Development subject. 
+              The objective was to design and develop a mobile application that addresses a real-world need.
+              Our team chose to create a wedding planning application that helps couples organize and manage various aspects of their wedding preparations. 
+              My responsibility focused on designing the bride and groom interface.
             </p> 
 
             <div class="row g-2 mb-4">
               <div class="col-md-6">
-                <img src="<?= base_url('/') ?>/assets/img/portfolio/hatchquest1.jpg" class="img-fluid rounded" alt="HatchQuest Image 1">
+                <img src="<?= base_url('/') ?>/assets/img/portfolio/lakaranimpian2.png" class="img-fluid rounded" alt="Lakaran Impian Image 1">
               </div>
 
               <div class="col-md-6">
-                <img src="<?= base_url('/') ?>/assets/img/portfolio/hatchquest2.jpg" class="img-fluid rounded" alt="HatchQuest Image 2">
+                <img src="<?= base_url('/') ?>/assets/img/portfolio/lakaranimpian3.png" class="img-fluid rounded" alt="Lakaran Impian Image 2">
               </div>
             </div>
-
-            <p> 
-              On the first day, participants attended workshops conducted by industry experts. 
-              They shared diverse of valuable insights about startup development, business models and pitching techniques. 
-              The sessions helped us refine our ideas and better understand market needs.
-            </p>
             
             <p> 
-              The second day focused on pitching our startup idea to judges. 
-              Presenting in front of experienced professionals was challenging but also rewarding. 
-              When the results were announced and our team secured second place, we were thrilled and at the same time proud with our teamwork.
-            </p>
+              The design process started with wireframes and user interface concepts created using Canva. 
+              After finalizing the design, the interface was implemented in Android Studio to transform the visual concepts into a functioning mobile application.
+            </p> 
             
             <p class="fst-italic">
-              Participating in the Hatch Quest competition was an unforgettable experience that improved my confidence in presenting ideas and working under pressure. 
-              Winning second place was a proud moment for my team and me.
-              More importantly, it showed us that a simple idea can grow into something impactful when supported by teamwork and determination.
+              Although this project focused on UI/UX design, it taught me the importance of creating user-friendly and visually appealing interfaces. 
+              It also strengthened my understanding of how design decisions influence the overall user experience.
             </p> 
           </div> 
           <!-- RIGHT META INFO --> 
@@ -200,10 +188,10 @@
               <h5>Post Information</h5> 
               <ul> 
                 <li> <strong>Author</strong><br> Ainnisha Sofea </li> 
-                <li> <strong>Date</strong><br> December 13, 2025 </li> 
-                <li> <strong>Category</strong><br> Achievements </li> 
-                <li> <strong>Views</strong><br> 35 Views </li> 
-                <li> <strong>Reading Time</strong><br> 7 Minutes </li> 
+                <li> <strong>Date</strong><br> February 16, 2025 </li> 
+                <li> <strong>Category</strong><br> Activities </li> 
+                <li> <strong>Views</strong><br> 25 Views </li> 
+                <li> <strong>Reading Time</strong><br> 5 Minutes </li> 
               </ul> 
             </div> 
           </div>
