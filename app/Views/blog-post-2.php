@@ -198,7 +198,7 @@
           <!-- RIGHT META INFO --> 
            
           <div class="col-lg-3"> 
-            <div class="portfolio-info"> 
+            <div class="blog-info"> 
               <h5>Post Information</h5> 
               <ul> 
                 <li> <strong>Author</strong><br> Ainnisha Sofea </li> 
