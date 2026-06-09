@@ -58,20 +58,32 @@ Personal portfolio website developed using CodeIgniter 4, HTML, CSS, JavaScript 
 ## How to Run the Project
 
 1. Clone the repository
-   git clone https://github.com/nnshaaa/personal-blog-portfolio.git
+
+```bash
+git clone https://github.com/nnshaaa/personal-blog-portfolio.git
+```
 
 2. Open the project folder
 
 3. Install dependencies
-   composer install
+
+```bash
+composer install
+```
 
 4. Configure the project environment if needed
 
 5. Start the development server
-   php spark serve
 
-6. Open in the browser
-   http://localhost:8080
+```bash
+php spark serve
+```
+
+6. Open in your browser
+
+```text
+http://localhost:8080
+```
 
 ## Demo Link
 
